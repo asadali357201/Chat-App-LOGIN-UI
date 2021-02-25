@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:background="@drawable/bakg"
+       android:layout_height="match_parent">
+
+
+<ImageView
+    android:layout_marginTop="10sp"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="150sp"
+    android:layout_height="150sp"
+    android:src="@drawable/ic_baseline_person_24"
+    > </ImageView>
+
+
+<!--    </ImageView>-->
+<!--        android:layout_marginTop="20sp"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:src="@drawable/button1"-->
+<!--        android:clickable="true"-->
+<!--        android:layout_width="250sp"-->
+<!--        android:layout_height="50sp"-->
+<!--        >-->
+
+<!--    </ImageView>-->
+
+<!--<ImageView-->
+<!--    android:layout_marginTop="10sp"-->
+<!--android:layout_gravity="center_horizontal"-->
+<!--android:src="@drawable/button2"-->
+<!--android:clickable="true"-->
+<!--android:layout_width="240sp"-->
+<!--android:layout_height="50sp"-->
+<!--    >-->
+
+<!--</ImageView>-->
+
+
+    <EditText
+
+        android:layout_marginTop="20sp"
+        android:drawablePadding="5sp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:hint="Enter Username"
+        android:layout_marginRight="50sp"
+        android:paddingLeft="15dp"
+        android:layout_marginLeft="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@drawable/corners">
+
+    </EditText>
+    <EditText
+
+        android:paddingLeft="15dp"
+        android:layout_marginTop="10sp"
+        android:hint="Enter Password"
+        android:drawableStart="@drawable/password"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="5sp"
+        android:layout_marginRight="50sp"
+        android:layout_marginLeft="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="@drawable/corners">
+
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginRight="50sp"
+        android:background="@drawable/corners"
+        android:text="Login"
+        app:backgroundTint="#293885">
+
+    </Button>
+
+    <Button
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="45sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/orange"
+        android:text="Forgot Password">
+
+    </Button>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="45sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/orange"
+        android:text="Sighn Up"
+        >
+
+    </Button>
+   </LinearLayout>
+
+</ScrollView>
